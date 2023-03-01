@@ -4,16 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
     <link href="style.css" rel="stylesheet" />
     <title>Document</title>
   </head>
@@ -29,7 +19,7 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="mainNav">
+        <div class="collapse navbar-collapse justify-content-md-end" id="mainNav">
           <ul class="navbar-nav my-1 my-md-0 ml-md-auto">
             <li class="nav-item my-1 my-md-0"><a href="#" class="nav-link">About</a></li>
             <li class="nav-item my-1 my-md-0"><a href="#" class="nav-link">Service</a></li>
@@ -42,9 +32,9 @@
     <header class="header">
       <div class="container h-100">
         <div class="row align-items-center justify-content-center text-center h-100">
-          <div class="col-lg-8 px-4 mt-auto">
-            <h1>Your Favorite Place for Free Bootstrap Themes</h1>
-            <hr class="divider" />
+          <div class="col-lg-8 px-4 mb-5 mt-auto">
+            <h1 class="mb-4">Your Favorite Place for Free Bootstrap Themes</h1>
+            <div class="divider mx-auto"></div>
           </div>
           <div class="col-lg-8 mb-auto">
             <p class="mb-5">
@@ -61,8 +51,8 @@
         <div class="container px-4 px-lg-5">
           <div class="row justify-content-center text-center h-100">
             <div class="col-lg-8 text-center px-4 mt-auto">
-              <h1>We've got what you need!</h1>
-              <hr class="divider" />
+              <h1 class="mb-4">We've got what you need!</h1>
+              <div class="divider mx-auto"></div>
             </div>
             <div class="col-lg-8 text-centermb-auto">
               <p class="mb-4 text-muted">
@@ -75,27 +65,29 @@
           </div>
         </div>
       </section>
-      <section class="page-section">
+      <section class="page-section text-center">
         <div class="container px-4 px-lg-0">
           <div class="row justify-content-center mb-5">
-            <div class="">
-              <h1>At Your Service</h1>
-              <hr class="divider" />
+            <div>
+              <h1 class="mb-4">At Your Service</h1>
+              <div class="divider mx-auto"></div>
             </div>
           </div>
           <div class="row justify-content-center row-cols-md-2 row-cols-lg-4 w-100">
             <div class="text-center mb-5 text-">
-              <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+              <div class="mb-2"><i class="bi-alarm fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">Sturdy Themes</h3>
               <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
             </div>
             <div class="text-center mb-5">
-              <div class="mb-2"><i class="bi-laptop fs-1 text-primary"></i></div>
+              <div class="mb-2">
+                <i class="bi-gem fs-1 text-primary"></i>
+              </div>
               <h3 class="h4 mb-2">Sturdy Themes</h3>
               <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
             </div>
             <div class="text-center mb-5">
-              <div class="mb-2"><i class="bi-gem fs-1 text-primary"></i></div>
+              <div class="mb-2"><i class="bi-alarm fs-1 text-primary"></i></div>
               <h3 class="h4 mb-2">Sturdy Themes</h3>
               <p class="text-muted mb-0">Our themes are updated regularly to keep them bug free!</p>
             </div>
@@ -108,47 +100,59 @@
         </div>
       </section>
       <section>
-        <div class="container-fluid">
-          <div class="row row-cols-sm-2 row-cols-lg-3">
-            <a class="portfolio-box">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="Portfolio" />
-              <div class="portfolio-caption">
-                <h5>Category</h5>
+        <div class="container-fluid px-0">
+          <div class="row row-cols-sm-2 row-cols-lg-3 g-0">
+            <a class="portfolio-box position-relative">
+              <img class="w-100" src="assets/img/portfolio/thumbnails/1.jpg" alt="Portfolio" />
+              <div
+                class="portfolio-caption bg-primary position-absolute top-0 d-flex flex-column justify-content-center align-content-center text-center text-white h-100 w-100 opacity-0"
+              >
+                <h5 class="opacity-50">Category</h5>
                 <h4>Project Name</h4>
               </div>
             </a>
-            <a class="portfolio-box">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/2.jpg" alt="Portfolio" />
-              <div class="portfolio-caption">
-                <h5>Category</h5>
+            <a class="portfolio-box position-relative">
+              <img class="w-100" src="assets/img/portfolio/thumbnails/2.jpg" alt="Portfolio" />
+              <div
+                class="portfolio-caption bg-primary position-absolute top-0 d-flex flex-column justify-content-center align-content-center text-center text-white h-100 w-100 opacity-0"
+              >
+                <h5 class="opacity-50">Category</h5>
                 <h4>Project Name</h4>
               </div>
             </a>
-            <a class="portfolio-box">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/3.jpg" alt="Portfolio" />
-              <div class="portfolio-caption">
-                <h5>Category</h5>
+            <a class="portfolio-box position-relative">
+              <img class="w-100" src="assets/img/portfolio/thumbnails/3.jpg" alt="Portfolio" />
+              <div
+                class="portfolio-caption bg-primary position-absolute top-0 d-flex flex-column justify-content-center align-content-center text-center text-white h-100 w-100 opacity-0"
+              >
+                <h5 class="opacity-50">Category</h5>
                 <h4>Project Name</h4>
               </div>
             </a>
-            <a class="portfolio-box">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/4.jpg" alt="Portfolio" />
-              <div class="portfolio-caption">
-                <h5>Category</h5>
+            <a class="portfolio-box position-relative">
+              <img class="w-100" src="assets/img/portfolio/thumbnails/4.jpg" alt="Portfolio" />
+              <div
+                class="portfolio-caption bg-primary position-absolute top-0 d-flex flex-column justify-content-center align-content-center text-center text-white h-100 w-100 opacity-0"
+              >
+                <h5 class="opacity-50">Category</h5>
                 <h4>Project Name</h4>
               </div>
             </a>
-            <a class="portfolio-box">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/5.jpg" alt="Portfolio" />
-              <div class="portfolio-caption">
-                <h5>Category</h5>
+            <a class="portfolio-box position-relative">
+              <img class="w-100" src="assets/img/portfolio/thumbnails/5.jpg" alt="Portfolio" />
+              <div
+                class="portfolio-caption bg-primary position-absolute top-0 d-flex flex-column justify-content-center align-content-center text-center text-white h-100 w-100 opacity-0"
+              >
+                <h5 class="opacity-50">Category</h5>
                 <h4>Project Name</h4>
               </div>
             </a>
-            <a class="portfolio-box">
-              <img class="img-fluid" src="assets/img/portfolio/thumbnails/6.jpg" alt="Portfolio" />
-              <div class="portfolio-caption">
-                <h5>Category</h5>
+            <a class="portfolio-box position-relative">
+              <img class="w-100" src="assets/img/portfolio/thumbnails/6.jpg" alt="Portfolio" />
+              <div
+                class="portfolio-caption bg-primary position-absolute top-0 d-flex flex-column justify-content-center align-content-center text-center text-white h-100 w-100 opacity-0"
+              >
+                <h5 class="opacity-50">Category</h5>
                 <h4>Project Name</h4>
               </div>
             </a>
@@ -158,9 +162,9 @@
       <section class="bg-dark text-white page-section">
         <div class="container px-4 px-lg-5">
           <div class="row justify-content-center text-center h-100">
-            <div class="col-lg-8 text-center px-4 mt-auto">
-              <h1>Free Download at Start Bootstrap!</h1>
-              <hr class="divider" />
+            <div class="col-lg-8 text-center px-4 mb-5 mt-auto">
+              <h1 class="mb-4">Free Download at Start Bootstrap!</h1>
+              <div class="divider mx-auto"></div>
             </div>
             <div class="col-lg-8 text-centermb-auto">
               <button href="#" class="btn btn-light btn-xl">Download now!</button>
@@ -171,9 +175,9 @@
       <section class="page-section">
         <div class="container">
           <div class="row justify-content-center text-center">
-            <div class="col-lg-8 text-center px-4 mt-auto">
-              <h1>Let's Get In Touch!</h1>
-              <hr class="divider" />
+            <div class="col-lg-8 text-center px-4 mb-5 mt-auto">
+              <h1 class="mb-4">Let's Get In Touch!</h1>
+              <div class="divider mx-auto"></div>
             </div>
             <div class="col-lg-8 text-centermb-auto">
               <p class="mb-4 text-muted">
@@ -184,24 +188,24 @@
           </div>
           <div class="row justify-content-center">
             <form class="col-lg-6">
-              <div class="form-group position-relative">
+              <div class="form-group mb-3 position-relative">
                 <input class="form-control form-control-lg" type="text" placeholder="Full name" />
               </div>
-              <div class="form-group position-relative">
+              <div class="form-group mb-3 position-relative">
                 <input
                   class="form-control form-control-lg"
                   type="text"
                   placeholder="Email address"
                 />
               </div>
-              <div class="form-group position-relative">
+              <div class="form-group mb-3 position-relative">
                 <input
                   class="form-control form-control-lg"
                   type="text"
                   placeholder="Phone number"
                 />
               </div>
-              <div class="form-group position-relative">
+              <div class="form-group mb-3 position-relative">
                 <textarea
                   class="form-control form-control-lg"
                   name=""
@@ -211,9 +215,7 @@
                   placeholder="Message"
                 ></textarea>
               </div>
-              <button class="btn btn-primary btn-block btn-xl disabled" type="submit">
-                submit
-              </button>
+              <button class="btn btn-primary w-100 btn-xl disabled" type="submit">submit</button>
             </form>
           </div>
 
@@ -227,16 +229,10 @@
     <footer class="bg-light py-5">
       <p class="text-center text-muted">Copyright © 2022 - Company Name</p>
     </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- SimpleLightbox plugin JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
