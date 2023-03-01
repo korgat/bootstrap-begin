@@ -1,0 +1,101 @@
+.mainNav {
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 15%);
+  background-color: #fff;
+  font-weight: 700;
+}
+
+.header {
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%),
+    url('assets//img/bg-masthead.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+}
+
+.divider {
+  background-color: #f4623a;
+  height: 0.2rem;
+  max-width: 60px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #f4623a !important;
+  border-color: #f4623a !important;
+}
+
+.bg-primary {
+  background-color: #f4623a !important;
+}
+.text-primary {
+  color: #f4623a !important;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.25rem;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10rem;
+}
+
+.page-section {
+  padding: 8rem 0;
+}
+
+.fs-1 {
+  font-size: calc(1.375rem + 1.5vw) !important;
+}
+
+.portfolio-box {
+  position: relative;
+  display: block;
+}
+
+.portfolio-caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgba(244, 98, 58, 0.9);
+  opacity: 0;
+  transition: opacity ease-in 0.2s;
+  color: #fff;
+}
+
+.portfolio-caption h5 {
+  opacity: 0.5;
+}
+
+.portfolio-caption:hover {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .mainNav {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .mainNav .navbar-brand {
+    color: #fff;
+  }
+
+  .mainNav .nav-link {
+    color: #fff !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .header {
+    height: 100vh;
+  }
+}
